@@ -9252,7 +9252,7 @@ new A.q2(a,A.Y(a).i("q2<1>")).Y(0,new A.at5(s,5))
 return s.a},
 ayj(a,b){var s=B.e.lm(a,A.bK("_[0-9]{2,3}\\.",!0,!1))
 return A.f(s[0])+"_"+b+"."+A.f(s[1])},
-aVz(a4){var s,r,q,p=" \u2022 ",o="\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)",n="NEDC\u7efc\u5408\u6cb9\u8017(L/100km)",m={},l=t.s,k=A.a(["\u53d1\u52a8\u673a","\u53d8\u901f\u7bb1","\u9a71\u52a8\u65b9\u5f0f","\u540e\u60ac\u6302\u7c7b\u578b","\u957f(mm)","\u9ad8(mm)","\u5bbd(mm)","\u71c3\u6cb9\u6807\u53f7(#)",o,n,"\u5907\u80ce\u7c7b\u578b"],l),j=A.a(["\u53d1\u52a8\u673a","\u53d8\u901f\u7bb1","\u9a71\u52a8\u65b9\u5f0f","\u540e\u60ac\u6302\u7c7b\u578b"],l),i=A.a(["\u957f(mm)","\u9ad8(mm)","\u5bbd(mm)"],l),h=A.a(["\u71c3\u6cb9\u6807\u53f7(#)",o,n,"\u5907\u80ce\u7c7b\u578b"],l),g=A.a(["\u540e\u6392\u5934\u90e8\u6c14\u5e18","\u80ce\u538b\u76d1\u6d4b\u7cfb\u7edf","\u540e\u89c6\u955c\u52a0\u70ed\u529f\u80fd","\u5012\u8f66\u5f71\u50cf","\u540e\u5012\u8f66\u96f7\u8fbe"],l),f=A.a(["\u73af\u4fdd\u6807\u51c6","\u8f66\u8eab\u5f62\u5f0f","\u957f","\u5bbd","\u9ad8","\u71c3\u6cb9\u6807\u53f7"],l),e=t.S,d=t.GU,c=A.A(e,d),b=A.A(e,d),a=A.A(e,d),a0=A.A(e,d),a1=t.N,a2=A.A(e,a1),a3=A.a([],l)
+aVz(a4){var s,r,q,p=" \u2022 ",o="\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)",n="NEDC\u7efc\u5408\u6cb9\u8017(L/100km)",m={},l=t.s,k=A.a(["\u53d1\u52a8\u673a","\u53d8\u901f\u7bb1","\u9a71\u52a8\u65b9\u5f0f","\u540e\u60ac\u6302\u7c7b\u578b","\u957f(mm)","\u9ad8(mm)","\u5bbd(mm)","\u71c3\u6cb9\u6807\u53f7(#)",o,n,"\u5907\u80ce\u7c7b\u578b"],l),j=A.a(["\u53d1\u52a8\u673a","\u53d8\u901f\u7bb1","\u9a71\u52a8\u65b9\u5f0f","\u540e\u60ac\u6302\u7c7b\u578b"],l),i=A.a(["\u957f(mm)","\u9ad8(mm)","\u5bbd(mm)"],l),h=A.a(["\u71c3\u6cb9\u6807\u53f7(#)",o,n,"\u5907\u80ce\u7c7b\u578b"],l),g=A.a(["\u540e\u6392\u5934\u90e8\u6c14\u5e18","\u80ce\u538b\u76d1\u6d4b\u7cfb\u7edf","\u540e\u89c6\u955c\u52a0\u70ed\u529f\u80fd","\u5012\u8f66\u5f71\u50cf","\u540e\u5012\u8f66\u96f7\u8fbe"],l),f=A.a(["\u73af\u4fdd\u6807\u51c6","\u8f66\u8eab\u5f62\u5f0f","\u957f","\u5bbd","\u9ad8","\u71c3\u6cb9\u6807\u53f7",o,n],l),e=t.S,d=t.GU,c=A.A(e,d),b=A.A(e,d),a=A.A(e,d),a0=A.A(e,d),a1=t.N,a2=A.A(e,a1),a3=A.a([],l)
 J.fd(a4.a,new A.atU(k,c,j,b,i,a,h,a0,g,a2,f,a3))
 s=new A.au4()
 m.a=""
@@ -47175,8 +47175,8 @@ n.toString
 s="\u9ad8"+A.f(q.b.$1(n))+"\u7c73"}else if(J.c(n.h(b,p),"\u5bbd(mm)")){n=n.h(b,o)
 n.toString
 s="\u5bbd"+A.f(q.b.$1(n))+"\u7c73"}else if(J.c(n.h(b,p),"\u5907\u80ce\u7c7b\u578b"))s=A.f(n.h(b,o))+"\u5907\u80ce"
-else if(J.c(n.h(b,p),"\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)"))s="\u5de5\u4fe1\u90e8\uff1a"+A.f(n.h(b,o))
-else if(J.c(n.h(b,p),"NEDC\u7efc\u5408\u6cb9\u8017(L/100km)"))s="NEDC\uff1a"+A.f(n.h(b,o))
+else if(J.c(n.h(b,p),"\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)"))s="\u5de5\u4fe1\u90e8:"+A.f(n.h(b,o))
+else if(J.c(n.h(b,p),"NEDC\u7efc\u5408\u6cb9\u8017(L/100km)"))s="NEDC:"+A.f(n.h(b,o))
 else{n=n.h(b,o)
 n.toString
 s=n}n=q.a
@@ -47221,8 +47221,8 @@ $S:78}
 A.au1.prototype={
 $2(a,b){var s,r,q=J.ao(b)
 if(J.c(q.h(b,"k"),"\u5907\u80ce\u7c7b\u578b"))s=A.f(q.h(b,"v"))+"\u5907\u80ce"
-else if(J.c(q.h(b,"k"),"\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)"))s="\u5de5\u4fe1\u90e8\uff1a"+A.f(q.h(b,"v"))
-else if(J.c(q.h(b,"k"),"NEDC\u7efc\u5408\u6cb9\u8017(L/100km)"))s="NEDC\uff1a"+A.f(q.h(b,"v"))
+else if(J.c(q.h(b,"k"),"\u5de5\u4fe1\u90e8\u7efc\u5408\u6cb9\u8017(L/100km)"))s="\u5de5\u4fe1\u90e8:"+A.f(q.h(b,"v"))
+else if(J.c(q.h(b,"k"),"NEDC\u7efc\u5408\u6cb9\u8017(L/100km)"))s="NEDC:"+A.f(q.h(b,"v"))
 else{q=q.h(b,"v")
 q.toString
 s=q}q=this.a
@@ -48426,7 +48426,7 @@ A.N4.prototype={
 J(a){return B.Mk}}
 A.Np.prototype={
 J(a){var s=null,r=t.p
-return A.afp(A.fD(B.b4,A.a([A.fh(A.aCS(A.fX(A.a([B.NO,new A.bA(B.iM,new A.nr(A.aCG(s,s,new A.xK("assets/pics/logo_for_login_page.png",s,s)),s,300,B.iY,s,!1,s),s),A.ep(A.bC("v2.6.2",s,s,s,B.c8.SL(10),B.eS,s),s,300),B.cT,B.Sq,B.cT,B.HO,B.NQ],r),B.a2,B.ac,B.aj),s,B.aF),s,s),B.HQ],r),B.F,B.aE,s))}}
+return A.afp(A.fD(B.b4,A.a([A.fh(A.aCS(A.fX(A.a([B.NO,new A.bA(B.iM,new A.nr(A.aCG(s,s,new A.xK("assets/pics/logo_for_login_page.png",s,s)),s,300,B.iY,s,!1,s),s),A.ep(A.bC("v2.6.3",s,s,s,B.c8.SL(10),B.eS,s),s,300),B.cT,B.Sq,B.cT,B.HO,B.NQ],r),B.a2,B.ac,B.aj),s,B.aF),s,s),B.HQ],r),B.F,B.aE,s))}}
 A.aun.prototype={
 $1(a){return new A.cr(B.ct,null,null)},
 $S:321}
